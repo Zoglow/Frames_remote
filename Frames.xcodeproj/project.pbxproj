@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B039EF882A72018200378FBC /* DrawingCanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B039EF872A72018200378FBC /* DrawingCanvasViewController.swift */; };
+		B039EF8A2A72040400378FBC /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B039EF892A72040400378FBC /* DrawingCanvasView.swift */; };
+		B039EF8C2A79E95900378FBC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B039EF8B2A79E95900378FBC /* DrawingView.swift */; };
+		B0C433742A7073B30098BD7F /* AddNewCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C433732A7073B30098BD7F /* AddNewCanvasView.swift */; };
 		B0DAC0EA2A5E055B0081F1C8 /* FramesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC0E92A5E055B0081F1C8 /* FramesApp.swift */; };
 		B0DAC0EC2A5E055B0081F1C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC0EB2A5E055B0081F1C8 /* ContentView.swift */; };
 		B0DAC0EE2A5E055C0081F1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DAC0ED2A5E055C0081F1C8 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B039EF872A72018200378FBC /* DrawingCanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasViewController.swift; sourceTree = "<group>"; };
+		B039EF892A72040400378FBC /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		B039EF8B2A79E95900378FBC /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		B0C433732A7073B30098BD7F /* AddNewCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCanvasView.swift; sourceTree = "<group>"; };
 		B0DAC0E62A5E055B0081F1C8 /* Frames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DAC0E92A5E055B0081F1C8 /* FramesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesApp.swift; sourceTree = "<group>"; };
 		B0DAC0EB2A5E055B0081F1C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B039EF862A72014700378FBC /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				B039EF872A72018200378FBC /* DrawingCanvasViewController.swift */,
+				B039EF892A72040400378FBC /* DrawingCanvasView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
 		B0DAC0DD2A5E055B0081F1C8 = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +72,15 @@
 		B0DAC0E82A5E055B0081F1C8 /* Frames */ = {
 			isa = PBXGroup;
 			children = (
+				B039EF862A72014700378FBC /* Canvas */,
 				B0DAC0E92A5E055B0081F1C8 /* FramesApp.swift */,
 				B0DAC0EB2A5E055B0081F1C8 /* ContentView.swift */,
+				B0C433732A7073B30098BD7F /* AddNewCanvasView.swift */,
 				B0DAC0ED2A5E055C0081F1C8 /* Assets.xcassets */,
 				B0DAC0F22A5E055C0081F1C8 /* Persistence.swift */,
 				B0DAC0F42A5E055C0081F1C8 /* Frames.xcdatamodeld */,
 				B0DAC0EF2A5E055C0081F1C8 /* Preview Content */,
+				B039EF8B2A79E95900378FBC /* DrawingView.swift */,
 			);
 			path = Frames;
 			sourceTree = "<group>";
@@ -144,9 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0DAC0F32A5E055C0081F1C8 /* Persistence.swift in Sources */,
+				B0C433742A7073B30098BD7F /* AddNewCanvasView.swift in Sources */,
 				B0DAC0F62A5E055C0081F1C8 /* Frames.xcdatamodeld in Sources */,
+				B039EF8C2A79E95900378FBC /* DrawingView.swift in Sources */,
+				B039EF882A72018200378FBC /* DrawingCanvasViewController.swift in Sources */,
 				B0DAC0EC2A5E055B0081F1C8 /* ContentView.swift in Sources */,
 				B0DAC0EA2A5E055B0081F1C8 /* FramesApp.swift in Sources */,
+				B039EF8A2A72040400378FBC /* DrawingCanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

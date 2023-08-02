@@ -2,7 +2,7 @@
 //  DrawingView.swift
 //  Frames
 //
-//  Created by Zoe Olson on 8/1/23.
+//  Created by Zoe Sosa on 8/1/23.
 //
 
 import SwiftUI

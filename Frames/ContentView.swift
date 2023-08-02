@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Frames
 //
-//  Created by Zoe Olson on 7/11/23.
+//  Created by Zoe Sosa on 7/11/23.
 //
 
 import SwiftUI
